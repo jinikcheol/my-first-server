@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <h5 class="s_title_in3">일일 및 누적 확진환자 추세</h5>
+    </head>
+    <body>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>  
+        <div id="tester" style="width:70%;height:200px;"></div>
+<script>
+    TESTER = document.getElementById('tester');
+    Plotly.plot( TESTER, [{
+      x: [23, 24, 25, 26, 27,28,29],
+      y: [110, 125, 114, 61, 95,50, 38] }],
+      { margin: { t: 0 } }
+    );
+</script> 
+		<div class="c_chart c_chart_pt">
+							<div class="cc_graph"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+								<div class="axis_label">
+									<div class="al_y_l"><span class="cca_total">누적 확진환자</span><em>(명)</em></div>
+									<div class="al_y_r"><span class="cca_day">일 확진환자</span><em>(명)</em></div>
+								</div>
+							</div>
+							<div class="cc_legend">
+								<div class="ccl_total"><i></i><span>누적 확진환자</span></div>
+								<div class="ccl_day"><i></i><span>일 확진환자</span></div>
+							</div>
+						</div>
+		<div class="hdn">
+                        	<table>
+                        		<caption>일일 및 누적확진환자 추세 - 날짜, 누적확진환자, 일일확진환자 수로 구성</caption>
+                        		<thead>
+                        			<tr><th scope="col">날짜</th><th scope="col">누적 확진환자수</th><th scope="col">일일 확진환자수</th></tr>
+                        		</thead>
+                        		<tbody>
+                        		
+									
+										
+									
+										
+											<tr><td>20200923</td><td>23216</td><td>110</td></tr>
+										
+									
+										
+											<tr><td>20200924</td><td>23341</td><td>125</td></tr>
+										
+									
+										
+											<tr><td>20200925</td><td>23455</td><td>114</td></tr>
+										
+									
+										
+											<tr><td>20200926</td><td>23516</td><td>61</td></tr>
+										
+									
+										
+											<tr><td>20200927</td><td>23611</td><td>95</td></tr>
+										
+									
+										
+											<tr><td>20200928</td><td>23661</td><td>50</td></tr>
+										
+									
+										
+											<tr><td>20200929</td><td>23699</td><td>38</td></tr>
+										
+									
+								
+                        		</tbody>
+                        	</table>
+                        </div>				
+	</body>					
+</html>
